@@ -1,94 +1,45 @@
 {
     "site": {
         "name": "WebXC",
-        "tagline": "Your digital foundation, built to be understood.",
-        "description": "A strategic digital performance partner that makes established businesses clearly understood, trusted, and citable by both search engines and AI.",
+        "tagline": "Principal-led digital performance for established NZ businesses.",
+        "description": "WebXC makes established businesses clearly understood, trusted, and citable across search and AI, by leading with business strategy and building a digital foundation the client fully owns.",
         "url": "https://my-site.lucky-frog-43cf.workers.dev",
-        "language": "en",
+        "language": "en-NZ",
         "location": "New Zealand",
-        "email": "hello@colasix.com"
+        "email": "hello@webxc.co.nz"
     },
     "nav": [
-        { "label": "Home", "path": "/" },
-        { "label": "About", "path": "/about/" },
-        {
-            "label": "Services",
-            "path": "/services/",
-            "children": [
-                { "label": "Positioning & Content Optimisation", "path": "/services/positioning-content-optimisation/" },
-                { "label": "Full Digital Foundation Build", "path": "/services/full-digital-foundation-build/" },
-                { "label": "Ongoing Content & Visibility", "path": "/services/ongoing-content-visibility/" },
-                { "label": "Discovery & Strategic Review", "path": "/discovery/" }
-            ]
-        },
-        { "label": "Blog", "path": "/blog/" },
-        { "label": "Contact", "path": "/contact/" }
+        { "label": "Home", "path": "/" }
     ],
     "pages": {
         "/": {
-            "title": "WebXC — Strategic Digital Performance for Established NZ Businesses",
-            "description": "WebXC makes established businesses clearly understood, trusted, and citable across search and AI through strategy-led digital foundations you fully own.",
-            "status": "exists-placeholder"
-        },
-        "/about/": {
-            "title": "About WebXC — Andrew Newman",
-            "description": "Meet the strategic thinking behind WebXC. Principal-led digital performance for established New Zealand businesses.",
-            "status": "not-started"
-        },
-        "/services/": {
-            "title": "Services — WebXC",
-            "description": "From positioning and content optimisation to full strategic website builds. Choose the path that fits your business.",
-            "status": "not-started"
-        },
-        "/services/positioning-content-optimisation/": {
-            "title": "Positioning & Content Optimisation — WebXC",
-            "description": "For businesses whose existing site is structurally adequate but whose positioning, content, and digital signals don't reflect the strength of the business.",
-            "status": "not-started"
-        },
-        "/services/full-digital-foundation-build/": {
-            "title": "Full Digital Foundation Build — WebXC",
-            "description": "A complete website design and technical build led by business strategy, structured for both search engines and generative AI.",
-            "status": "not-started"
-        },
-        "/services/ongoing-content-visibility/": {
-            "title": "Ongoing Content & Visibility — WebXC",
-            "description": "Sustained strategic content development, authority building, and AI visibility monitoring for businesses that want to compound their digital advantage.",
-            "status": "not-started"
-        },
-        "/discovery/": {
-            "title": "Discovery & Strategic Review — WebXC",
-            "description": "A structured discovery session producing prioritised strategic and tactical recommendations for your digital presence.",
-            "status": "not-started"
-        },
-        "/blog/": {
-            "title": "Insights — WebXC",
-            "description": "Practical insights on AI visibility, search strategy, and digital foundations for established New Zealand businesses.",
-            "status": "not-started"
-        },
-        "/contact/": {
-            "title": "Contact WebXC",
-            "description": "Start a conversation about your digital presence. No pressure, no pitch — just an honest discussion about where you stand.",
-            "status": "not-started"
+            "title": "WebXC — Digital Performance for Established NZ Businesses",
+            "description": "Principal-led digital strategy for established NZ businesses. We close the gap between your real-world credibility and your digital presence.",
+            "status": "built",
+            "sections": ["hero", "qualification", "the-gap", "how-we-work", "outcomes", "principals", "contact"]
         }
     },
     "blog": {
         "posts": []
     },
     "people": {
-        "andrew": {
-            "name": "Andrew Newman",
-            "role": "Founder",
-            "email": "hello@colasix.com",
-            "description": "Strategic digital performance consultant helping established NZ businesses build digital foundations that reflect their real-world credibility."
+        "james": {
+            "name": "James",
+            "role": "Strategy & Positioning",
+            "description": "20+ years in strategy and positioning for established businesses. Starts with the business logic — what actually makes you win work."
+        },
+        "andy": {
+            "name": "Andy",
+            "role": "Technical & Performance",
+            "description": "20+ years in digital architecture and performance engineering. 90+ Core Web Vitals. Schema markup. AI-ready platforms."
         }
     },
     "schema": {
         "organisation": {
             "@type": "ProfessionalService",
             "name": "WebXC",
-            "description": "A strategic digital performance partner that makes established businesses clearly understood, trusted, and citable by both search engines and AI.",
-            "areaServed": "New Zealand",
-            "founder": "Andrew Newman"
+            "description": "Principal-led digital performance partner for established New Zealand businesses.",
+            "areaServed": "New Zealand"
         }
     }
 }

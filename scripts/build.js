@@ -27,6 +27,9 @@ const SKIP_DIRS = new Set([
     '.git',
     'components',
     'scripts',
+    'docs',
+    'website-copy',
+    'webpage-wireframes',
     'docs'
 ]);
 
@@ -88,11 +91,24 @@ function loadComponent(name) {
     return `<!-- Component "${name}" not found -->`;
 }
 
-function processHtml(content) {
+function processHtml(content, rootPrefix) {
     // Match <!-- BUILD:name --> markers and replace with component contents
-    return content.replace(/<!--\s*BUILD:(\w[\w-]*)\s*-->/g, (match, name) => {
+    content = content.replace(/<!--\s*BUILD:(\w[\w-]*)\s*-->/g, (match, name) => {
         return loadComponent(name);
     });
+
+    // Replace {{ROOT}} placeholders with relative path prefix
+    content = content.replace(/\{\{ROOT\}\}/g, rootPrefix);
+
+    return content;
+}
+
+function getRootPrefix(relativePath) {
+    // Calculate relative path from file location back to site root
+    const dir = path.dirname(relativePath);
+    if (dir === '.') return '.';
+    const depth = dir.split(path.sep).length;
+    return Array(depth).fill('..').join('/');
 }
 
 // --- Main build ---
@@ -133,7 +149,8 @@ function build() {
             componentCount += matches.length;
         }
 
-        content = processHtml(content);
+        const rootPrefix = getRootPrefix(relativePath);
+        content = processHtml(content, rootPrefix);
 
         ensureDir(path.dirname(outputPath));
         fs.writeFileSync(outputPath, content, 'utf-8');

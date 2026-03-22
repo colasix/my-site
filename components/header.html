@@ -1,27 +1,22 @@
 <header class="site-header">
     <div class="header-inner">
-        <a href="/" class="site-logo" aria-label="WebXC Home">WebXC</a>
-        <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <a href="{{ROOT}}/" class="site-logo" aria-label="WebXC Home">WebXC</a>
+        <nav class="site-nav" aria-label="Main navigation">
+            <a href="{{ROOT}}/how-we-work/" class="nav-link">How We Work</a>
+            <a href="{{ROOT}}/website-design/" class="nav-link">Website Design</a>
+            <a href="{{ROOT}}/about/" class="nav-link">About</a>
+            <a href="{{ROOT}}/contact/" class="nav-link-cta">Let's Talk</a>
+        </nav>
+        <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
             <span class="nav-toggle-bar"></span>
             <span class="nav-toggle-bar"></span>
             <span class="nav-toggle-bar"></span>
         </button>
-        <nav class="site-nav" aria-label="Main navigation">
-            <ul class="nav-list">
-                <li><a href="/" class="nav-link">Home</a></li>
-                <li><a href="/about/" class="nav-link">About</a></li>
-                <li class="nav-item-dropdown">
-                    <a href="/services/" class="nav-link">Services</a>
-                    <ul class="nav-dropdown">
-                        <li><a href="/services/positioning-content-optimisation/" class="nav-dropdown-link">Positioning & Content Optimisation</a></li>
-                        <li><a href="/services/full-digital-foundation-build/" class="nav-dropdown-link">Full Digital Foundation Build</a></li>
-                        <li><a href="/services/ongoing-content-visibility/" class="nav-dropdown-link">Ongoing Content & Visibility</a></li>
-                        <li><a href="/discovery/" class="nav-dropdown-link">Discovery & Strategic Review</a></li>
-                    </ul>
-                </li>
-                <li><a href="/blog/" class="nav-link">Blog</a></li>
-                <li><a href="/contact/" class="nav-link nav-link-cta">Let's Talk</a></li>
-            </ul>
-        </nav>
     </div>
+    <nav class="mobile-nav" aria-label="Mobile navigation">
+        <a href="{{ROOT}}/how-we-work/" class="mobile-nav-link">How We Work</a>
+        <a href="{{ROOT}}/website-design/" class="mobile-nav-link">Website Design</a>
+        <a href="{{ROOT}}/about/" class="mobile-nav-link">About</a>
+        <a href="{{ROOT}}/contact/" class="mobile-nav-link mobile-nav-cta">Let's Talk</a>
+    </nav>
 </header>
