@@ -104,7 +104,11 @@ function build() {
 
     // Clean output directory
     if (fs.existsSync(OUTPUT_DIR)) {
-        fs.rmSync(OUTPUT_DIR, { recursive: true });
+        try {
+            fs.rmSync(OUTPUT_DIR, { recursive: true, force: true });
+        } catch (e) {
+            console.log('Note: Could not clean _site/, writing over existing files.');
+        }
     }
     ensureDir(OUTPUT_DIR);
 
