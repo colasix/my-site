@@ -1,0 +1,18 @@
+# WebXC
+
+> A strategic digital performance partner that makes established businesses clearly understood, trusted, and citable by both search engines and AI.
+
+WebXC helps established New Zealand businesses close the gap between their real-world credibility and their digital presence, at a time when AI systems and search engines decide who gets found, trusted, and recommended.
+
+## Services
+
+- Discovery & Strategic Review: Structured discovery session producing prioritised strategic and tactical recommendations for your digital presence.
+- Positioning & Content Optimisation: For businesses whose existing website is structurally adequate but whose positioning, content, and digital signals need calibrating for search and AI.
+- Full Digital Foundation Build: Complete website design and technical build led by business strategy, structured for both search engines and generative AI.
+- Ongoing Content & Visibility: Sustained strategic content development, authority building, and AI visibility monitoring.
+
+## Contact
+
+- Website: https://my-site.lucky-frog-43cf.workers.dev
+- Email: hello@colasix.com
+- Location: New Zealand

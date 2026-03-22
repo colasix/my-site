@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://my-site.lucky-frog-43cf.workers.dev/sitemap.xml
