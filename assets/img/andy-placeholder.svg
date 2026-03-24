@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="560" viewBox="0 0 480 560">
+  <rect width="480" height="560" fill="#E5E7EB"/>
+  <circle cx="240" cy="200" r="72" fill="#D1D5DB"/>
+  <ellipse cx="240" cy="340" rx="96" ry="64" fill="#D1D5DB"/>
+  <text x="240" y="460" text-anchor="middle" font-family="Inter Tight, Inter, sans-serif" font-size="13" font-weight="400" fill="#9CA3AF" letter-spacing="0.05em">ANDREW</text>
+  <text x="240" y="490" text-anchor="middle" font-family="Inter Tight, Inter, sans-serif" font-size="11" font-weight="300" fill="#9CA3AF">480 × 560 px</text>
+  <text x="240" y="510" text-anchor="middle" font-family="Inter Tight, Inter, sans-serif" font-size="10" font-weight="300" fill="#B0B7BF">Recommended: professional headshot</text>
+  <rect x="0.5" y="0.5" width="479" height="559" fill="none" stroke="#D1D5DB" stroke-width="1"/>
+</svg>

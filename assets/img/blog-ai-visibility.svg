@@ -1,0 +1,53 @@
+<svg width="800" height="500" viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="500" fill="#f3f4f6"/>
+
+  <!-- Decorative circles in background -->
+  <circle cx="120" cy="120" r="35" fill="#2F4F4F" opacity="0.05"/>
+  <circle cx="680" cy="380" r="45" fill="#2F4F4F" opacity="0.05"/>
+
+  <!-- Left eye outline -->
+  <ellipse cx="280" cy="250" rx="70" ry="90" fill="none" stroke="#2F4F4F" stroke-width="3"/>
+
+  <!-- Left pupil/iris -->
+  <circle cx="280" cy="260" r="35" fill="#9CA3AF"/>
+  <circle cx="285" cy="255" r="14" fill="#2F4F4F"/>
+  <circle cx="288" cy="253" r="6" fill="white"/>
+
+  <!-- Right eye outline -->
+  <ellipse cx="520" cy="250" rx="70" ry="90" fill="none" stroke="#2F4F4F" stroke-width="3"/>
+
+  <!-- Right pupil/iris -->
+  <circle cx="520" cy="260" r="35" fill="#9CA3AF"/>
+  <circle cx="525" cy="255" r="14" fill="#2F4F4F"/>
+  <circle cx="528" cy="253" r="6" fill="white"/>
+
+  <!-- Center bridge (between eyes) -->
+  <path d="M 350 200 Q 400 190 450 200" stroke="#2F4F4F" stroke-width="2" fill="none" stroke-linecap="round"/>
+
+  <!-- Radiating nodes (AI/connectivity concept) -->
+  <g opacity="0.7">
+    <!-- Upper node -->
+    <circle cx="400" cy="100" r="6" fill="#2F4F4F"/>
+    <line x1="350" y1="200" x2="400" y2="100" stroke="#9CA3AF" stroke-width="1.5" opacity="0.6"/>
+    <line x1="450" y1="200" x2="400" y2="100" stroke="#9CA3AF" stroke-width="1.5" opacity="0.6"/>
+
+    <!-- Lower left node -->
+    <circle cx="250" cy="380" r="6" fill="#2F4F4F"/>
+    <line x1="300" y1="330" x2="250" y2="380" stroke="#9CA3AF" stroke-width="1.5" opacity="0.6"/>
+
+    <!-- Lower right node -->
+    <circle cx="550" cy="380" r="6" fill="#2F4F4F"/>
+    <line x1="500" y1="330" x2="550" y2="380" stroke="#9CA3AF" stroke-width="1.5" opacity="0.6"/>
+
+    <!-- Side nodes -->
+    <circle cx="150" cy="250" r="5" fill="#9CA3AF"/>
+    <line x1="220" y1="250" x2="150" y2="250" stroke="#9CA3AF" stroke-width="1" opacity="0.4"/>
+
+    <circle cx="650" cy="250" r="5" fill="#9CA3AF"/>
+    <line x1="590" y1="250" x2="650" y2="250" stroke="#9CA3AF" stroke-width="1" opacity="0.4"/>
+  </g>
+
+  <!-- Title -->
+  <text x="400" y="460" font-family="system-ui, sans-serif" font-size="24" font-weight="600" fill="#2F4F4F" text-anchor="middle">AI Visibility</text>
+</svg>
