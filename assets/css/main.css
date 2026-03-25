@@ -78,6 +78,12 @@ h1, h2, h3 {
     border-right: 1px solid rgba(107, 114, 128, 0.2);
 }
 
+.page-hero > .container,
+.page-cta > .container {
+    border-left: none;
+    border-right: none;
+}
+
 
 /* === Site Header === */
 .site-header {
@@ -287,9 +293,16 @@ h1, h2, h3 {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 4rem 1.5rem;
     background: linear-gradient(160deg, #2F4F4F 0%, #3D5E5E 35%, #4A6B6B 60%, #5A7D7D 100%);
     overflow: hidden;
+}
+
+.hero > .container {
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
 }
 
 .hero::before {
@@ -312,6 +325,7 @@ h1, h2, h3 {
 .hero-content {
     text-align: center;
     max-width: 800px;
+    margin: 0 auto;
     position: relative;
     z-index: 1;
 }
@@ -330,7 +344,7 @@ h1, h2, h3 {
     line-height: 1.7;
     color: rgba(255, 255, 255, 0.7);
     margin-bottom: 2.5rem;
-    max-width: 540px;
+    max-width: 680px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -356,8 +370,11 @@ h1, h2, h3 {
 /* === Qualification === */
 .qualification {
     background: var(--color-bg-soft);
-    padding: 6rem 0;
-    border-bottom: 1px solid var(--color-border-soft);
+}
+
+.qualification > .container {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
 }
 
 .section-intro {
@@ -405,8 +422,12 @@ h1, h2, h3 {
 /* === The Gap === */
 .the-gap {
     background: var(--color-bg);
-    padding: 6rem 0;
-    border-bottom: 1px solid var(--color-border-soft);
+}
+
+.the-gap > .container {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    text-align: left;
 }
 
 .the-gap h2 {
@@ -436,8 +457,12 @@ h1, h2, h3 {
 /* === How We Work === */
 .how-we-work {
     background: #fff;
-    padding: 6rem 0;
     border-bottom: none;
+}
+
+.how-we-work > .container {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
 }
 
 .how-we-work--page {
@@ -597,8 +622,11 @@ h1, h2, h3 {
 /* === Services Grid (Swan-style) === */
 .services-grid-section {
     background: var(--color-bg);
-    padding: 6rem 0;
-    border-bottom: 1px solid var(--color-border-soft);
+}
+
+.services-grid-section > .container {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
 }
 
 .services-grid-label {
@@ -682,8 +710,11 @@ h1, h2, h3 {
 /* === Outcomes === */
 .outcomes {
     background: var(--color-bg);
-    padding: 6rem 0;
-    border-bottom: 1px solid var(--color-border-soft);
+}
+
+.outcomes > .container {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
 }
 
 .outcomes h2 {
@@ -729,11 +760,16 @@ h1, h2, h3 {
 /* === Principals === */
 .principals {
     background: #fff;
-    padding: 6rem 0;
+}
+
+.principals > .container {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
 }
 
 .principals-header {
     margin-bottom: 3.5rem;
+    text-align: left;
 }
 
 .principals-header p.principals-label {
@@ -874,9 +910,14 @@ h1, h2, h3 {
 
 /* === Page Hero (light variant for inner pages) === */
 .page-hero {
-    padding: 5rem 0 4.5rem;
     background: var(--color-bg);
     border-bottom: none;
+}
+
+.page-hero > .container {
+    padding-top: 5rem;
+    padding-bottom: 4.5rem;
+    text-align: left;
 }
 
 .page-hero h1 {
@@ -893,8 +934,11 @@ h1, h2, h3 {
     font-size: 1rem;
     color: var(--color-text-secondary);
     line-height: 1.75;
-    max-width: 580px;
+    max-width: 680px;
     margin-bottom: 0;
+    margin-left: 0;
+    margin-right: auto;
+    text-align: left;
 }
 
 /* === Page Hero (dark variant for service/about/contact) === */
@@ -952,9 +996,13 @@ h1, h2, h3 {
 
 /* === Page Section (reusable inner page sections) === */
 .page-section {
-    padding: 5rem 0;
     border-bottom: none;
     background: #fff;
+}
+
+.page-section > .container {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
 }
 
 .page-section--soft {
@@ -1446,9 +1494,13 @@ h1, h2, h3 {
 
 /* === Related Services (sub-service pages) === */
 .related-services {
-    padding: 5rem 0;
     background: #fff;
     border-bottom: none;
+}
+
+.related-services > .container {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
 }
 
 .related-services h2 {
@@ -1504,8 +1556,12 @@ h1, h2, h3 {
 /* === Page CTA (bottom of inner pages) === */
 .page-cta {
     background: #212121;
-    padding: 5rem 0;
     text-align: center;
+}
+
+.page-cta > .container {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
 }
 
 .page-cta h2 {
@@ -1834,8 +1890,9 @@ h1, h2, h3 {
         padding: 0 3rem;
     }
 
-    .hero {
-        padding: 7rem 2rem;
+    .hero > .container {
+        padding-top: 7rem;
+        padding-bottom: 7rem;
     }
 
     .hero-content h1 {
@@ -1844,15 +1901,17 @@ h1, h2, h3 {
 
     .hero-sub {
         font-size: 1.2rem;
-        max-width: 540px;
+        max-width: 680px;
     }
 
-    .qualification {
-        padding: 7rem 0;
+    .qualification > .container {
+        padding-top: 7rem;
+        padding-bottom: 7rem;
     }
 
-    .the-gap {
-        padding: 7rem 0;
+    .the-gap > .container {
+        padding-top: 7rem;
+        padding-bottom: 7rem;
     }
 
     .the-gap h2,
@@ -1866,8 +1925,9 @@ h1, h2, h3 {
         font-size: 2.75rem;
     }
 
-    .services-grid-section {
-        padding: 7rem 0;
+    .services-grid-section > .container {
+        padding-top: 7rem;
+        padding-bottom: 7rem;
     }
 
     .services-grid-header {
@@ -1906,16 +1966,19 @@ h1, h2, h3 {
         font-size: 1.3rem;
     }
 
-    .how-we-work {
-        padding: 7rem 0;
+    .how-we-work > .container {
+        padding-top: 7rem;
+        padding-bottom: 7rem;
     }
 
-    .outcomes {
-        padding: 7rem 0;
+    .outcomes > .container {
+        padding-top: 7rem;
+        padding-bottom: 7rem;
     }
 
-    .principals {
-        padding: 7rem 0;
+    .principals > .container {
+        padding-top: 7rem;
+        padding-bottom: 7rem;
     }
 
     .contact-page-grid {
@@ -1934,16 +1997,18 @@ h1, h2, h3 {
     }
 
     /* Inner pages desktop */
-    .page-hero {
-        padding: 6rem 0 5rem;
+    .page-hero > .container {
+        padding-top: 6rem;
+        padding-bottom: 5rem;
     }
 
     .page-hero h1 {
         font-size: 3.25rem;
     }
 
-    .page-section {
-        padding: 7rem 0;
+    .page-section > .container {
+        padding-top: 7rem;
+        padding-bottom: 7rem;
     }
 
     .page-section h2,
@@ -1956,8 +2021,9 @@ h1, h2, h3 {
         font-size: 2.75rem;
     }
 
-    .related-services {
-        padding: 7rem 0;
+    .related-services > .container {
+        padding-top: 7rem;
+        padding-bottom: 7rem;
     }
 
     .approach-points {
