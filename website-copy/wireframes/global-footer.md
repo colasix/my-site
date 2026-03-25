@@ -99,7 +99,7 @@
 [Purpose: Removes conversion friction]
 
 [Icon] [Email]
-[hello@webxc.com] (or principal email)
+[james@xennial.co.nz]
 [Purpose: Transparency + direct contact alternative]
 
 [PRINCIPAL NAMES - Credibility Signal]

@@ -6,7 +6,7 @@
         "url": "https://www.webxc.com",
         "language": "en-NZ",
         "location": "New Zealand",
-        "email": "hello@webxc.com"
+        "email": "james@xennial.co.nz"
     },
     "nav": [
         { "label": "How We Work", "path": "/how-we-work/" },
@@ -134,7 +134,7 @@
             "name": "WebXC",
             "description": "Principal-led digital performance partner for established New Zealand businesses.",
             "url": "https://www.webxc.com",
-            "email": "hello@webxc.com",
+            "email": "james@xennial.co.nz",
             "areaServed": "New Zealand"
         }
     }

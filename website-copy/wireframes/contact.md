@@ -412,7 +412,7 @@ is primary conversion path while still honouring visitor preference.]
 
 ```
 [CONTACT METHOD: Email]
-Email: [principal email or contact@webxc.nz]
+Email: james@xennial.co.nz
 Label: "Drop us a line at [email]"
 [Copy tone: Casual, welcoming, not corporate]
 
