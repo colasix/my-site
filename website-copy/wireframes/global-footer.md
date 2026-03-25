@@ -99,7 +99,7 @@
 [Purpose: Removes conversion friction]
 
 [Icon] [Email]
-[contact@webxc.co.nz] (or principal email)
+[hello@webxc.com] (or principal email)
 [Purpose: Transparency + direct contact alternative]
 
 [PRINCIPAL NAMES - Credibility Signal]
@@ -240,7 +240,7 @@
 {
   "name": "WebXC",
   "logo": "[Logo URL]",
-  "url": "https://webxc.co.nz/",
+  "url": "https://webxc.com/",
   "contactPoint": {
     "contactType": "Sales",
     "telephone": "[Phone]",
@@ -252,7 +252,7 @@
 [SCHEMA: SiteNavigationElement]
 {
   "name": "Footer Navigation",
-  "url": "https://webxc.co.nz/",
+  "url": "https://webxc.com/",
   "hasPartElements": [
     "About", "Services", "Discovery", "Blog", "Contact"
   ]
@@ -382,7 +382,7 @@
 ### Link Attributes
 - Use semantic HTML: `<nav>` wrapper for footer navigation
 - Link text must be descriptive (avoid "click here" or generic labels)
-- Internal links: Use relative paths (/about/) or absolute URLs (https://webxc.co.nz/about/)
+- Internal links: Use relative paths (/about/) or absolute URLs (https://webxc.com/about/)
 - External links (social): Use `rel="noopener noreferrer"` if opening new tab
 
 ### Load Performance

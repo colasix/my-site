@@ -110,7 +110,7 @@ WebXC DOES use:
 ### Tier Structure
 
 **Tier 1: Entry & Authority**
-- webxc.co.nz/ (Homepage)
+- webxc.com/ (Homepage)
 
 **Tier 2: Primary Navigation & Trust Building**
 - /about/ (Meet the Principals)

@@ -1,7 +1,7 @@
 # HOMEPAGE WIREFRAME
 
 **Page:** Homepage
-**URL:** webxc.co.nz/
+**URL:** webxc.com/
 **Tier:** Tier 1 — Entry & Authority
 **Page Type:** Brand Hub / Central Hub
 **Silo:** Central Hub (connects all silos)

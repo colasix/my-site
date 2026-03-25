@@ -3,33 +3,127 @@
         "name": "WebXC",
         "tagline": "Principal-led digital performance for established NZ businesses.",
         "description": "WebXC makes established businesses clearly understood, trusted, and citable across search and AI, by leading with business strategy and building a digital foundation the client fully owns.",
-        "url": "https://my-site.lucky-frog-43cf.workers.dev",
+        "url": "https://www.webxc.com",
         "language": "en-NZ",
         "location": "New Zealand",
-        "email": "hello@webxc.co.nz"
+        "email": "hello@webxc.com"
     },
     "nav": [
-        { "label": "Home", "path": "/" }
+        { "label": "How We Work", "path": "/how-we-work/" },
+        { "label": "Website Design", "path": "/website-design/" },
+        { "label": "Insights", "path": "/insights/" },
+        { "label": "About", "path": "/about/" },
+        { "label": "Let's Talk", "path": "/contact/" }
     ],
     "pages": {
         "/": {
-            "title": "WebXC — Digital Performance for Established NZ Businesses",
+            "title": "WebXC | Digital Performance for Established NZ Businesses",
             "description": "Principal-led digital strategy for established NZ businesses. We close the gap between your real-world credibility and your digital presence.",
             "status": "built",
-            "sections": ["hero", "qualification", "the-gap", "how-we-work", "outcomes", "principals", "contact"]
+            "sections": ["hero", "the-gap", "services-grid", "outcomes", "principals"]
+        },
+        "/how-we-work/": {
+            "title": "How We Work | WebXC",
+            "description": "Principal-led, three-step process. Free initial conversation, paid discovery and strategic review, then choose your path.",
+            "status": "built"
+        },
+        "/website-design/": {
+            "title": "Website Design for Established NZ Businesses | WebXC",
+            "description": "Principal-led website design for established NZ businesses. Strategy, content, SEO, and AI visibility, built around how your buyers actually search and decide.",
+            "status": "built"
+        },
+        "/about/": {
+            "title": "About WebXC | Principal-Led Digital Performance | WebXC",
+            "description": "WebXC is James Smith and Andrew Newman. Two principals, 40+ years combined experience. Every project is hands-on, strategic, and built for established NZ businesses.",
+            "status": "built"
+        },
+        "/contact/": {
+            "title": "Get in Touch | WebXC",
+            "description": "Start a conversation with WebXC. Tell us about your situation and we'll respond within one business day.",
+            "status": "built"
+        },
+        "/seo/": {
+            "title": "SEO for Established NZ Businesses | WebXC",
+            "description": "Search visibility built around buyer intent, content architecture, and technical clarity for established New Zealand businesses.",
+            "status": "built"
+        },
+        "/geo/": {
+            "title": "Generative Engine Optimisation | AI Visibility for NZ Businesses | WebXC",
+            "description": "Make sure AI tools can understand, retrieve, and recommend your business with clear entity signals and structured content.",
+            "status": "built"
+        },
+        "/cro/": {
+            "title": "Conversion Rate Optimisation for NZ Businesses | WebXC",
+            "description": "Turn more of the right visitors into enquiries through clearer messaging, stronger trust signals, and better conversion pathways.",
+            "status": "built"
+        },
+        "/content-strategy/": {
+            "title": "Content Strategy for NZ Businesses | WebXC",
+            "description": "Content structured around how buyers search, evaluate, and decide, so it performs for both people and machines.",
+            "status": "built"
+        },
+        "/performance/": {
+            "title": "Performance Websites | Fast, Secure, AI-Ready | WebXC",
+            "description": "Fast, secure, technically strong websites built to support search visibility, AI accessibility, and long-term growth.",
+            "status": "built"
+        },
+        "/content-management/": {
+            "title": "Content Management for Business Websites | WebXC",
+            "description": "A CMS and content structure your team can actually use without breaking layouts, performance, or SEO foundations.",
+            "status": "built"
+        },
+        "/insights/": {
+            "title": "Insights | Digital Strategy for NZ Businesses | WebXC",
+            "description": "Perspectives on digital strategy, AI visibility, SEO, and what it takes for established NZ businesses to compete online.",
+            "status": "built"
+        },
+        "/insights/your-website-traffic-is-down/": {
+            "title": "Your Website Traffic Is Down, But That Might Not Be the Problem You Think It Is | WebXC",
+            "description": "Traffic decline is increasingly structural. The more important question is whether search engines and AI can still understand your business.",
+            "status": "built"
+        },
+        "/insights/two-ways-ai-can-know-your-business/": {
+            "title": "The Two Ways AI Can Know About Your Business, and Why Most Businesses Are Invisible in Both | WebXC",
+            "description": "There are two fundamentally different ways AI systems can know about a business: inherent knowledge from training, and real-time retrieval.",
+            "status": "built"
+        },
+        "/insights/content-is-cheap-what-does-authority-mean/": {
+            "title": "Content Is Cheap Now. So What Does Authority Actually Mean? | WebXC",
+            "description": "In a web flooded with plausible but empty content, authority comes from evidence, clarity, and signals machines can verify.",
+            "status": "built"
         }
     },
     "blog": {
-        "posts": []
+        "indexPath": "/insights/",
+        "posts": [
+            {
+                "title": "Your Website Traffic Is Down, But That Might Not Be the Problem You Think It Is",
+                "path": "/insights/your-website-traffic-is-down/",
+                "category": "Digital Strategy",
+                "published": "2026-03"
+            },
+            {
+                "title": "The Two Ways AI Can Know About Your Business, and Why Most Businesses Are Invisible in Both",
+                "path": "/insights/two-ways-ai-can-know-your-business/",
+                "category": "AI Visibility",
+                "published": "2026-03"
+            },
+            {
+                "title": "Content Is Cheap Now. So What Does Authority Actually Mean?",
+                "path": "/insights/content-is-cheap-what-does-authority-mean/",
+                "category": "Content Strategy",
+                "published": "2026-02"
+            }
+        ]
     },
     "people": {
         "james": {
-            "name": "James",
+            "name": "James Smith",
             "role": "Strategy & Positioning",
             "description": "20+ years in strategy and positioning for established businesses. Starts with the business logic — what actually makes you win work."
         },
         "andy": {
-            "name": "Andy",
+            "name": "Andrew Newman",
             "role": "Technical & Performance",
             "description": "20+ years in digital architecture and performance engineering. 90+ Core Web Vitals. Schema markup. AI-ready platforms."
         }
@@ -39,6 +133,8 @@
             "@type": "ProfessionalService",
             "name": "WebXC",
             "description": "Principal-led digital performance partner for established New Zealand businesses.",
+            "url": "https://www.webxc.com",
+            "email": "hello@webxc.com",
             "areaServed": "New Zealand"
         }
     }

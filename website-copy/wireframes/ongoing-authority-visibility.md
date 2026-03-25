@@ -668,7 +668,7 @@ This page belongs to the **Services & Solutions Silo** alongside Option A and Op
 
 4. **[SCHEMA: Organization]** (footer)
    - name: "WebXC"
-   - url: https://webxc.co.nz
+   - url: https://webxc.com
    - address: [Location details]
    - telephone: [Phone]
    - email: [Email]

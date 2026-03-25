@@ -6,7 +6,7 @@ WebXC is a principal-led digital performance consultancy that makes established 
 
 **Business:** WebXC
 **Principals:** James (Strategy & Positioning) and Andy (Technical & Performance)
-**Owner:** Andrew Newman (hello@colasix.com)
+**Owner:** Andrew Newman (hello@webxc.com)
 **Target market:** Established NZ businesses, $2M–$50M revenue
 **Repository:** github.com/colasix/my-site
 **Hosting:** Cloudflare Pages (free tier)

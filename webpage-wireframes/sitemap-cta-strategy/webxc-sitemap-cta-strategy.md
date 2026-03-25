@@ -11,7 +11,7 @@ This document defines the site architecture, information hierarchy, and customer
 ### Tier Structure
 
 **Tier 1: Entry & Authority (Homepage)**
-- webxc.co.nz/ (Homepage)
+- webxc.com/ (Homepage)
 
 **Tier 2: Primary Navigation & Trust Building**
 - /about/ (Meet the Principals)
@@ -32,7 +32,7 @@ This document defines the site architecture, information hierarchy, and customer
 ### URL Slugs & Hierarchy
 
 ```
-webxc.co.nz/
+webxc.com/
 ├── (Homepage)
 ├── about/
 ├── blog/
@@ -142,7 +142,7 @@ WebXC operates three primary content silos, each addressing a distinct business 
 
 ### Page 1: Homepage
 
-**URL**: webxc.co.nz/
+**URL**: webxc.com/
 
 **H1 Suggestion**
 "Your digital foundation determines your market position."
@@ -697,10 +697,10 @@ Awareness (Blog/Content)
 ### URL Linking Syntax
 
 Use absolute URLs with trailing slashes for clarity:
-- Homepage: https://webxc.co.nz/
-- Internal page: https://webxc.co.nz/about/
-- Service: https://webxc.co.nz/services/positioning-digital-authority/
-- Blog post: https://webxc.co.nz/blog/post-slug/
+- Homepage: https://webxc.com/
+- Internal page: https://webxc.com/about/
+- Service: https://webxc.com/services/positioning-digital-authority/
+- Blog post: https://webxc.com/blog/post-slug/
 
 ---
 

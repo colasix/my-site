@@ -13,6 +13,6 @@ WebXC helps established New Zealand businesses close the gap between their real-
 
 ## Contact
 
-- Website: https://my-site.lucky-frog-43cf.workers.dev
-- Email: hello@colasix.com
+- Website: https://www.webxc.com
+- Email: hello@webxc.com
 - Location: New Zealand

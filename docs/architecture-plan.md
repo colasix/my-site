@@ -21,7 +21,7 @@
 
 1. `node scripts/build.js` scans root for `.html` files (skips `_site/`, `node_modules/`, `components/`, `scripts/`, `docs/`, `website-copy/`, `webpage-wireframes/`)
 2. Replaces `<!-- BUILD:name -->` with contents of `components/name.html`
-3. Copies `assets/`, `robots.txt`, `LLMs.txt` to `_site/`
+3. Copies `assets/`, `sitemap.xml`, `robots.txt`, and `LLMs.txt` to `_site/`
 4. Output in `_site/` is what Cloudflare Pages serves
 
 **Cloudflare build command:** `node scripts/build.js`

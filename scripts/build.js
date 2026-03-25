@@ -39,7 +39,7 @@ const COPY_PATHS = [
     'sitemap.xml',
     'robots.txt',
     'LLMs.txt',
-    'favicon.ico'
+    'favicon.svg'
 ];
 
 // --- Utility functions ---
